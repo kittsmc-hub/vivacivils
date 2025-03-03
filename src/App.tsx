@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Building2, Users, Briefcase, Phone, Mail, MapPin, ChevronRight, ArrowRight, CheckCircle, Award, Clock, Shield } from 'lucide-react';
+import { Building2, Users, Briefcase, Phone, Mail, MapPin, ChevronRight, ArrowRight, Award, Clock, Shield } from 'lucide-react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ProjectCard from './components/ProjectCard';
