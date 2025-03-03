@@ -26,6 +26,8 @@ function App() {
             alt="Engineering project" 
             className="w-full h-full object-cover"
             fetchPriority="high"
+            width="2070"
+            height="1380"
           />
           <div className="absolute inset-0 bg-black bg-opacity-60"></div>
         </div>
@@ -57,10 +59,12 @@ function App() {
             <div className="md:w-1/2">
               <div className="bg-gray-200 rounded-lg overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                  src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=75" 
                   alt="Engineering team" 
                   className="rounded-lg shadow-xl w-full h-auto object-cover"
                   loading="lazy"
+                  width="800"
+                  height="600"
                 />
               </div>
             </div>
@@ -179,32 +183,32 @@ function App() {
             <ProjectCard 
               title="Urban Highway Expansion" 
               category="Transportation"
-              image="https://images.unsplash.com/photo-1545558014-8692077e9b5c"
+              image="https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&w=600&q=75"
             />
             <ProjectCard 
               title="Commercial Complex" 
               category="Structural Engineering"
-              image="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab"
+              image="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=75"
             />
             <ProjectCard 
               title="Municipal Water Treatment" 
               category="Water Resources"
-              image="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122"
+              image="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=600&q=75"
             />
             <ProjectCard 
               title="Residential Development" 
               category="Construction Management"
-              image="https://images.unsplash.com/photo-1448630360428-65456885c650"
+              image="https://images.unsplash.com/photo-1448630360428-65456885c650?auto=format&fit=crop&w=600&q=75"
             />
             <ProjectCard 
               title="Coastal Protection" 
               category="Environmental Engineering"
-              image="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+              image="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=75"
             />
             <ProjectCard 
               title="Bridge Reconstruction" 
               category="Structural Engineering"
-              image="https://images.unsplash.com/photo-1513436539083-9d2127e742f1"
+              image="https://images.unsplash.com/photo-1513436539083-9d2127e742f1?auto=format&fit=crop&w=600&q=75"
             />
           </div>
           

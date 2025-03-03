@@ -21,7 +21,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, category, image }) => 
         )}
         {!imageError ? (
           <img 
-            src={`${image}?auto=format&q=80&w=800`} 
+            src={image} 
             alt={title} 
             className={`w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
             loading="lazy"
@@ -30,6 +30,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, category, image }) => 
               setImageError(true);
               setImageLoaded(true);
             }}
+            width="600"
+            height="400"
           />
         ) : (
           <div className="absolute inset-0 flex items-center justify-center bg-gray-300">
